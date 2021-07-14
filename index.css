@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: rgb(151, 226, 75);
+}
+header{
+    display: block;
+}
+.box1{
+    width: 1200px;
+    background-color: rgb(235, 37, 37);
+    clear: both;
+}
+.box2{
+    width: 1200px;
+    background-color: rgb(235, 37, 37);
+}
+.box3{
+    width: 1200px;
+    background-color: rgb(235, 37, 37);
+}.box4{
+    width: 1200px;
+    background-color: rgb(235, 37, 37);
+}
+.toTop{
+    width: 60px;
+    height: 60px;
+    background-color: darkgray;
+    color: black;
+    position: fixed; 
+    bottom: 10px;
+    right: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.toTop:hover{
+background-color: aqua;
+
+}
+.menu li{
+    float: left;
+}
+ul,li{
+    padding: 10px;
+}
+.menu{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    position: relative;
+    top: 50px;
+}
+h2{
+    position: relative;
+    top: 50px;
+}
+p{
+    position: relative;
+    top: 50px;
+}
